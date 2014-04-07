@@ -1,0 +1,195 @@
+html, body{
+height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+   background-color:gray;
+  font-family: 'Dosis', sans-serif;
+   font-size:15px;
+   color:#000;
+}
+
+h1,h2,h3 {
+   margin:0px;
+   padding: 0px;
+  text-transform:uppercase;
+  font-weight:500px;
+} 
+
+h2 {
+   padding:0 0 20px,0;
+   font-size:1.5px;
+}
+
+p,ul {
+   margin-top: 0;
+}
+
+p {
+   line-height: 180%;
+}
+
+strong {
+  color: #2C2C2C;
+}
+
+a {
+   color:#2c2c2c;
+}
+
+a:hover{
+    text-decoration: none;   
+}
+
+#wrapper {
+   overflow: hidden;
+   width:1200px;
+   background-color: #fff;
+   margin: 50px auto;
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+header{
+background-color: #e6ad80;
+overflow:hidden;
+height:150px;
+}
+
+nav{
+float:right;
+width:700px;
+padding:60px 50px 0 0;
+}
+
+nav ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: normal;
+}
+nav li{
+float:left;
+}
+
+
+nav a{
+display:block;
+letter-spacing:1px;
+text-decoration: none;
+border-bottom: 1px solid #fff;
+
+text-transform:uppercase;
+text-align:center;
+font-size:15px;
+font-weight:300px;
+color:#fff;
+margin-left:1px;
+padding:7px 0 7px 30px;
+}
+
+#main{
+overflow:hidden;
+width:1100px;
+margin:0 50px;
+padding:50px 0;
+border-bottom:1px solid #dedede;
+}
+
+#content{
+float:left;
+width:750px;
+}
+
+#content h2{
+font-size: 2.10em;
+}
+
+aside{
+background:#fcfcfc;
+float:right;
+width:300px;
+}
+
+footer {
+border-top: 1px solid #000;
+overflow:hidden;
+margin:0 50px;
+padding:7px 0;
+}
+footer p{
+text-align:center;
+}
+
+#second {
+background:#fcfcfc;
+overflow: hidden;
+margin: 0 50px;
+padding: 50px 0;
+}
+
+#second #one {
+float: left;
+width:300px;
+margin-right:50px;
+}
+
+#second #two{
+float: left;
+width:400px;
+}
+
+#second #two img{
+text-align:center;
+}
+
+#second #three {
+
+float: right;
+width:300px;
+}
+
+#logo {
+  text-decoration:none;
+  float: left;
+  width: 350px;
+  padding: 40px 0 0 50px; 
+  text-transform: uppercase;
+}
+
+#logo h3 {
+  padding: 5px 10px 0 0;
+}
+
+#logo h3 a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 300px;
+  color: #FFFFFF;
+}
+
+#logo p {
+  display: block;
+  margin-top: -10px;
+  padding: 0;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+
+#logo a {
+  text-decoration:none;
+  color: #fff;
+}
+table {
+border:1px solid gray;
+}
+table tr{
+border:1px solid gray;
+}
+table tr td {
+border:1px solid gray;
+color:green;
+}
